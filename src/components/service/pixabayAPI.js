@@ -28,7 +28,7 @@ export async function pixabaySearch(query, page = 1, perPage = 12) {
 
     if (hits.length === 0) {
       Notiflix.Notify.info(
-        'Sorry, there is no content matching your request ^_^',
+        'Sorry, there is no content matching your request ',
         options
       );
       return {
