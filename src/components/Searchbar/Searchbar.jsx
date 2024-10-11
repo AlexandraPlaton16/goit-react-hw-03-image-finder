@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FaSearch } from 'react-icons/fa'; // Ensure this icon is used
+import { FaSearch } from 'react-icons/fa';
 import styles from './Searchbar.module.css';
 
 class Searchbar extends Component {
@@ -21,8 +21,7 @@ class Searchbar extends Component {
       <header className={styles.Searchbar}>
         <form className={styles.SearchForm} onSubmit={this.handleSubmit}>
           <button type="submit" className={styles.SearchFormButton}>
-            <FaSearch style={{ color: '#fff', fontSize: '20px' }} />{' '}
-            {/* Using FaSearch here */}
+            <FaSearch style={{ fontSize: '20px' }} />
           </button>
 
           <input
